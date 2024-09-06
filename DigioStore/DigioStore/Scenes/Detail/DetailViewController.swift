@@ -27,6 +27,11 @@ class DetailViewController: UIViewController {
         super.viewDidAppear(animated)
         interactor?.loadData()
     }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: true)
+    }
 }
 
 extension DetailViewController: ViewConfiguration {

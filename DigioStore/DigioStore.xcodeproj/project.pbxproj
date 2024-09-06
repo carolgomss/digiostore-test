@@ -10,7 +10,6 @@
 		523C66AB2C8B386D00074CF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66AA2C8B386D00074CF5 /* AppDelegate.swift */; };
 		523C66B42C8B386E00074CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C66B32C8B386E00074CF5 /* Assets.xcassets */; };
 		523C66B72C8B386E00074CF5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 523C66B62C8B386E00074CF5 /* Base */; };
-		523C66C22C8B386E00074CF5 /* DigioStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66C12C8B386E00074CF5 /* DigioStoreTests.swift */; };
 		523C66ED2C8B3AA000074CF5 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66E72C8B3AA000074CF5 /* HomeWorker.swift */; };
 		523C66EE2C8B3AA000074CF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66E82C8B3AA000074CF5 /* HomeViewController.swift */; };
 		523C66EF2C8B3AA000074CF5 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66E92C8B3AA000074CF5 /* HomePresenter.swift */; };
@@ -28,6 +27,28 @@
 		523C67062C8B3ADF00074CF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67022C8B3ADF00074CF5 /* DetailViewController.swift */; };
 		523C67072C8B3ADF00074CF5 /* DetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67032C8B3ADF00074CF5 /* DetailFactory.swift */; };
 		523C67092C8B3AE800074CF5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67082C8B3AE800074CF5 /* DetailView.swift */; };
+		523C67142C8B3C1C00074CF5 /* DSTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67102C8B3C1C00074CF5 /* DSTheme.swift */; };
+		523C67152C8B3C1C00074CF5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67112C8B3C1C00074CF5 /* LoadingView.swift */; };
+		523C67162C8B3C1C00074CF5 /* DSHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67122C8B3C1C00074CF5 /* DSHeaderView.swift */; };
+		523C67172C8B3C1C00074CF5 /* DSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67132C8B3C1C00074CF5 /* DSImageView.swift */; };
+		523C671D2C8B3C2100074CF5 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67182C8B3C2100074CF5 /* Collection+Extension.swift */; };
+		523C671E2C8B3C2100074CF5 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67192C8B3C2100074CF5 /* Array+Extensions.swift */; };
+		523C671F2C8B3C2100074CF5 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C671A2C8B3C2100074CF5 /* UIStackView+Extensions.swift */; };
+		523C67202C8B3C2100074CF5 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C671B2C8B3C2100074CF5 /* UIImageView+Extensions.swift */; };
+		523C67212C8B3C2100074CF5 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C671C2C8B3C2100074CF5 /* UIView+Extensions.swift */; };
+		523C67242C8B3C2900074CF5 /* EnvironmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67222C8B3C2900074CF5 /* EnvironmentManager.swift */; };
+		523C67252C8B3C2900074CF5 /* InfoPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67232C8B3C2900074CF5 /* InfoPlist.swift */; };
+		523C672A2C8B3C2F00074CF5 /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67262C8B3C2F00074CF5 /* ViewConfiguration.swift */; };
+		523C672B2C8B3C2F00074CF5 /* ErrorPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67272C8B3C2F00074CF5 /* ErrorPresenting.swift */; };
+		523C672C2C8B3C2F00074CF5 /* CellIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67282C8B3C2F00074CF5 /* CellIdentifier.swift */; };
+		523C672D2C8B3C2F00074CF5 /* LoadingPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67292C8B3C2F00074CF5 /* LoadingPresenting.swift */; };
+		523C67302C8B3C3400074CF5 /* DigioError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C672E2C8B3C3400074CF5 /* DigioError.swift */; };
+		523C67312C8B3C3400074CF5 /* DigioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C672F2C8B3C3400074CF5 /* DigioService.swift */; };
+		523C67372C8B3DDA00074CF5 /* home_products_error.json in Resources */ = {isa = PBXBuildFile; fileRef = 523C67352C8B3DDA00074CF5 /* home_products_error.json */; };
+		523C67382C8B3DDA00074CF5 /* home_products_success.json in Resources */ = {isa = PBXBuildFile; fileRef = 523C67362C8B3DDA00074CF5 /* home_products_success.json */; };
+		523C673A2C8B3DE000074CF5 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67392C8B3DE000074CF5 /* HomeTests.swift */; };
+		523C673C2C8B3DE700074CF5 /* DigioServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C673B2C8B3DE700074CF5 /* DigioServiceMock.swift */; };
+		523C673E2C8B3E1F00074CF5 /* HomeViewControllerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C673D2C8B3E1F00074CF5 /* HomeViewControllerSpy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +68,6 @@
 		523C66B62C8B386E00074CF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		523C66B82C8B386E00074CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		523C66BD2C8B386E00074CF5 /* DigioStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigioStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		523C66C12C8B386E00074CF5 /* DigioStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioStoreTests.swift; sourceTree = "<group>"; };
 		523C66E72C8B3AA000074CF5 /* HomeWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
 		523C66E82C8B3AA000074CF5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		523C66E92C8B3AA000074CF5 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
@@ -65,6 +85,28 @@
 		523C67022C8B3ADF00074CF5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		523C67032C8B3ADF00074CF5 /* DetailFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFactory.swift; sourceTree = "<group>"; };
 		523C67082C8B3AE800074CF5 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		523C67102C8B3C1C00074CF5 /* DSTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSTheme.swift; sourceTree = "<group>"; };
+		523C67112C8B3C1C00074CF5 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		523C67122C8B3C1C00074CF5 /* DSHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSHeaderView.swift; sourceTree = "<group>"; };
+		523C67132C8B3C1C00074CF5 /* DSImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSImageView.swift; sourceTree = "<group>"; };
+		523C67182C8B3C2100074CF5 /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		523C67192C8B3C2100074CF5 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		523C671A2C8B3C2100074CF5 /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		523C671B2C8B3C2100074CF5 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		523C671C2C8B3C2100074CF5 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		523C67222C8B3C2900074CF5 /* EnvironmentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentManager.swift; sourceTree = "<group>"; };
+		523C67232C8B3C2900074CF5 /* InfoPlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPlist.swift; sourceTree = "<group>"; };
+		523C67262C8B3C2F00074CF5 /* ViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+		523C67272C8B3C2F00074CF5 /* ErrorPresenting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorPresenting.swift; sourceTree = "<group>"; };
+		523C67282C8B3C2F00074CF5 /* CellIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellIdentifier.swift; sourceTree = "<group>"; };
+		523C67292C8B3C2F00074CF5 /* LoadingPresenting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingPresenting.swift; sourceTree = "<group>"; };
+		523C672E2C8B3C3400074CF5 /* DigioError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigioError.swift; sourceTree = "<group>"; };
+		523C672F2C8B3C3400074CF5 /* DigioService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigioService.swift; sourceTree = "<group>"; };
+		523C67352C8B3DDA00074CF5 /* home_products_error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home_products_error.json; sourceTree = "<group>"; };
+		523C67362C8B3DDA00074CF5 /* home_products_success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home_products_success.json; sourceTree = "<group>"; };
+		523C67392C8B3DE000074CF5 /* HomeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
+		523C673B2C8B3DE700074CF5 /* DigioServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigioServiceMock.swift; sourceTree = "<group>"; };
+		523C673D2C8B3E1F00074CF5 /* HomeViewControllerSpy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerSpy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +148,8 @@
 		523C66A92C8B386D00074CF5 /* DigioStore */ = {
 			isa = PBXGroup;
 			children = (
-				523C670A2C8B3B4F00074CF5 /* New Group */,
+				523C670A2C8B3B4F00074CF5 /* Core */,
 				523C66DF2C8B3A5800074CF5 /* Scenes */,
-				523C66DE2C8B3A5400074CF5 /* Core */,
 				523C66DA2C8B388800074CF5 /* Files */,
 				523C66AA2C8B386D00074CF5 /* AppDelegate.swift */,
 			);
@@ -118,7 +159,8 @@
 		523C66C02C8B386E00074CF5 /* DigioStoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				523C66C12C8B386E00074CF5 /* DigioStoreTests.swift */,
+				523C67322C8B3DC500074CF5 /* Core */,
+				523C67332C8B3DCA00074CF5 /* Home */,
 			);
 			path = DigioStoreTests;
 			sourceTree = "<group>";
@@ -131,13 +173,6 @@
 				523C66B82C8B386E00074CF5 /* Info.plist */,
 			);
 			path = Files;
-			sourceTree = "<group>";
-		};
-		523C66DE2C8B3A5400074CF5 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 		523C66DF2C8B3A5800074CF5 /* Scenes */ = {
@@ -228,11 +263,95 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		523C670A2C8B3B4F00074CF5 /* New Group */ = {
+		523C670A2C8B3B4F00074CF5 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				523C670B2C8B3BEC00074CF5 /* CustomViews */,
+				523C670E2C8B3BFA00074CF5 /* Extensions */,
+				523C670D2C8B3BF600074CF5 /* Manager */,
+				523C670F2C8B3C0200074CF5 /* Protocols */,
+				523C670C2C8B3BF100074CF5 /* Services */,
 			);
-			path = "New Group";
+			path = Core;
+			sourceTree = "<group>";
+		};
+		523C670B2C8B3BEC00074CF5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				523C67122C8B3C1C00074CF5 /* DSHeaderView.swift */,
+				523C67132C8B3C1C00074CF5 /* DSImageView.swift */,
+				523C67102C8B3C1C00074CF5 /* DSTheme.swift */,
+				523C67112C8B3C1C00074CF5 /* LoadingView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		523C670C2C8B3BF100074CF5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				523C672E2C8B3C3400074CF5 /* DigioError.swift */,
+				523C672F2C8B3C3400074CF5 /* DigioService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		523C670D2C8B3BF600074CF5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				523C67222C8B3C2900074CF5 /* EnvironmentManager.swift */,
+				523C67232C8B3C2900074CF5 /* InfoPlist.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		523C670E2C8B3BFA00074CF5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				523C67192C8B3C2100074CF5 /* Array+Extensions.swift */,
+				523C67182C8B3C2100074CF5 /* Collection+Extension.swift */,
+				523C671B2C8B3C2100074CF5 /* UIImageView+Extensions.swift */,
+				523C671A2C8B3C2100074CF5 /* UIStackView+Extensions.swift */,
+				523C671C2C8B3C2100074CF5 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		523C670F2C8B3C0200074CF5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				523C67282C8B3C2F00074CF5 /* CellIdentifier.swift */,
+				523C67272C8B3C2F00074CF5 /* ErrorPresenting.swift */,
+				523C67292C8B3C2F00074CF5 /* LoadingPresenting.swift */,
+				523C67262C8B3C2F00074CF5 /* ViewConfiguration.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		523C67322C8B3DC500074CF5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				523C673B2C8B3DE700074CF5 /* DigioServiceMock.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		523C67332C8B3DCA00074CF5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				523C67342C8B3DD200074CF5 /* Files */,
+				523C673D2C8B3E1F00074CF5 /* HomeViewControllerSpy.swift */,
+				523C67392C8B3DE000074CF5 /* HomeTests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		523C67342C8B3DD200074CF5 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				523C67352C8B3DDA00074CF5 /* home_products_error.json */,
+				523C67362C8B3DDA00074CF5 /* home_products_success.json */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +448,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523C67382C8B3DDA00074CF5 /* home_products_success.json in Resources */,
+				523C67372C8B3DDA00074CF5 /* home_products_error.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,24 +482,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523C67202C8B3C2100074CF5 /* UIImageView+Extensions.swift in Sources */,
 				523C66FC2C8B3AC800074CF5 /* HomeCashView.swift in Sources */,
+				523C672D2C8B3C2F00074CF5 /* LoadingPresenting.swift in Sources */,
 				523C67092C8B3AE800074CF5 /* DetailView.swift in Sources */,
+				523C672A2C8B3C2F00074CF5 /* ViewConfiguration.swift in Sources */,
+				523C67302C8B3C3400074CF5 /* DigioError.swift in Sources */,
 				523C66ED2C8B3AA000074CF5 /* HomeWorker.swift in Sources */,
 				523C66FE2C8B3AD100074CF5 /* HomeResponse.swift in Sources */,
 				523C66FA2C8B3AC400074CF5 /* HomeProductView.swift in Sources */,
+				523C67252C8B3C2900074CF5 /* InfoPlist.swift in Sources */,
 				523C66AB2C8B386D00074CF5 /* AppDelegate.swift in Sources */,
 				523C67042C8B3ADF00074CF5 /* DetailPresenter.swift in Sources */,
 				523C67052C8B3ADF00074CF5 /* DetailInteractor.swift in Sources */,
 				523C67062C8B3ADF00074CF5 /* DetailViewController.swift in Sources */,
 				523C66F22C8B3AA000074CF5 /* HomeRouter.swift in Sources */,
 				523C66F92C8B3AC400074CF5 /* HomeProductsCollectionViewCell.swift in Sources */,
+				523C67212C8B3C2100074CF5 /* UIView+Extensions.swift in Sources */,
+				523C67172C8B3C1C00074CF5 /* DSImageView.swift in Sources */,
+				523C67162C8B3C1C00074CF5 /* DSHeaderView.swift in Sources */,
+				523C672B2C8B3C2F00074CF5 /* ErrorPresenting.swift in Sources */,
+				523C67312C8B3C3400074CF5 /* DigioService.swift in Sources */,
+				523C672C2C8B3C2F00074CF5 /* CellIdentifier.swift in Sources */,
 				523C66EE2C8B3AA000074CF5 /* HomeViewController.swift in Sources */,
 				523C66F02C8B3AA000074CF5 /* HomeInteractor.swift in Sources */,
+				523C67152C8B3C1C00074CF5 /* LoadingView.swift in Sources */,
 				523C66F62C8B3ABE00074CF5 /* HomeSpotlightView.swift in Sources */,
+				523C67242C8B3C2900074CF5 /* EnvironmentManager.swift in Sources */,
 				523C66EF2C8B3AA000074CF5 /* HomePresenter.swift in Sources */,
+				523C67142C8B3C1C00074CF5 /* DSTheme.swift in Sources */,
+				523C671E2C8B3C2100074CF5 /* Array+Extensions.swift in Sources */,
 				523C67072C8B3ADF00074CF5 /* DetailFactory.swift in Sources */,
 				523C66F52C8B3ABE00074CF5 /* HomeSpotlightCollectionViewCell.swift in Sources */,
+				523C671F2C8B3C2100074CF5 /* UIStackView+Extensions.swift in Sources */,
 				523C66F12C8B3AA000074CF5 /* HomeFactory.swift in Sources */,
+				523C671D2C8B3C2100074CF5 /* Collection+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +524,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523C66C22C8B386E00074CF5 /* DigioStoreTests.swift in Sources */,
+				523C673C2C8B3DE700074CF5 /* DigioServiceMock.swift in Sources */,
+				523C673A2C8B3DE000074CF5 /* HomeTests.swift in Sources */,
+				523C673E2C8B3E1F00074CF5 /* HomeViewControllerSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +683,6 @@
 				INFOPLIST_FILE = DigioStore/Files/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -570,7 +709,6 @@
 				INFOPLIST_FILE = DigioStore/Files/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

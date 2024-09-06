@@ -19,6 +19,7 @@ class DetaiView: UIView {
         let label = UILabel()
         label.font = .primary(ofSize: 18)
         label.textColor = .secondary
+        label.numberOfLines = 0
         return label
     }()
 
@@ -47,10 +48,12 @@ extension DetaiView: ViewConfiguration {
 
     func setupConstraints() {
         [
-            iconImageView.topAnchor.constraint(equalTo: topAnchor),
-            iconImageView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            iconImageView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            iconImageView.heightAnchor.constraint(equalToConstant: Layout.Icon.height)
+            iconImageView.heightAnchor.constraint(equalToConstant: Layout.Icon.height),
+            iconImageView.widthAnchor.constraint(equalToConstant: Layout.Icon.width),
+            iconImageView.leadingAnchor.constraint(equalTo: leadingAnchor,
+                                                   constant: Layout.Icon.leading),
+            iconImageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor,
+                                                   constant: Layout.Icon.top)
         ].activate()
         [
             titleLabel.topAnchor.constraint(equalTo: iconImageView.bottomAnchor,
@@ -66,7 +69,7 @@ extension DetaiView: ViewConfiguration {
             descriptionLabel.leadingAnchor.constraint(equalTo: leadingAnchor,
                                                       constant: Layout.Description.top),
             descriptionLabel.trailingAnchor.constraint(equalTo: trailingAnchor,
-                                                       constant: Layout.Description.top)
+                                                       constant: Layout.Description.trailing)
         ].activate()
     }
 }
@@ -74,7 +77,10 @@ extension DetaiView: ViewConfiguration {
 extension DetaiView.Layout {
 
     enum Icon {
-        static let height: CGFloat = 100
+        static let top: CGFloat = 22
+        static let leading: CGFloat = 16
+        static let height: CGFloat = 102
+        static let width: CGFloat = 102
     }
 
     enum Title {
