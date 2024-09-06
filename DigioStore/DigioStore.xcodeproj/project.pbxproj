@@ -11,6 +11,23 @@
 		523C66B42C8B386E00074CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C66B32C8B386E00074CF5 /* Assets.xcassets */; };
 		523C66B72C8B386E00074CF5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 523C66B62C8B386E00074CF5 /* Base */; };
 		523C66C22C8B386E00074CF5 /* DigioStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66C12C8B386E00074CF5 /* DigioStoreTests.swift */; };
+		523C66ED2C8B3AA000074CF5 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66E72C8B3AA000074CF5 /* HomeWorker.swift */; };
+		523C66EE2C8B3AA000074CF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66E82C8B3AA000074CF5 /* HomeViewController.swift */; };
+		523C66EF2C8B3AA000074CF5 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66E92C8B3AA000074CF5 /* HomePresenter.swift */; };
+		523C66F02C8B3AA000074CF5 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66EA2C8B3AA000074CF5 /* HomeInteractor.swift */; };
+		523C66F12C8B3AA000074CF5 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66EB2C8B3AA000074CF5 /* HomeFactory.swift */; };
+		523C66F22C8B3AA000074CF5 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66EC2C8B3AA000074CF5 /* HomeRouter.swift */; };
+		523C66F52C8B3ABE00074CF5 /* HomeSpotlightCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66F32C8B3ABE00074CF5 /* HomeSpotlightCollectionViewCell.swift */; };
+		523C66F62C8B3ABE00074CF5 /* HomeSpotlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66F42C8B3ABE00074CF5 /* HomeSpotlightView.swift */; };
+		523C66F92C8B3AC400074CF5 /* HomeProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66F72C8B3AC400074CF5 /* HomeProductsCollectionViewCell.swift */; };
+		523C66FA2C8B3AC400074CF5 /* HomeProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66F82C8B3AC400074CF5 /* HomeProductView.swift */; };
+		523C66FC2C8B3AC800074CF5 /* HomeCashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66FB2C8B3AC800074CF5 /* HomeCashView.swift */; };
+		523C66FE2C8B3AD100074CF5 /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C66FD2C8B3AD100074CF5 /* HomeResponse.swift */; };
+		523C67042C8B3ADF00074CF5 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67002C8B3ADF00074CF5 /* DetailPresenter.swift */; };
+		523C67052C8B3ADF00074CF5 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67012C8B3ADF00074CF5 /* DetailInteractor.swift */; };
+		523C67062C8B3ADF00074CF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67022C8B3ADF00074CF5 /* DetailViewController.swift */; };
+		523C67072C8B3ADF00074CF5 /* DetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67032C8B3ADF00074CF5 /* DetailFactory.swift */; };
+		523C67092C8B3AE800074CF5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C67082C8B3AE800074CF5 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +48,23 @@
 		523C66B82C8B386E00074CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		523C66BD2C8B386E00074CF5 /* DigioStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigioStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		523C66C12C8B386E00074CF5 /* DigioStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioStoreTests.swift; sourceTree = "<group>"; };
+		523C66E72C8B3AA000074CF5 /* HomeWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		523C66E82C8B3AA000074CF5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		523C66E92C8B3AA000074CF5 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		523C66EA2C8B3AA000074CF5 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		523C66EB2C8B3AA000074CF5 /* HomeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFactory.swift; sourceTree = "<group>"; };
+		523C66EC2C8B3AA000074CF5 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		523C66F32C8B3ABE00074CF5 /* HomeSpotlightCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSpotlightCollectionViewCell.swift; sourceTree = "<group>"; };
+		523C66F42C8B3ABE00074CF5 /* HomeSpotlightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSpotlightView.swift; sourceTree = "<group>"; };
+		523C66F72C8B3AC400074CF5 /* HomeProductsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		523C66F82C8B3AC400074CF5 /* HomeProductView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProductView.swift; sourceTree = "<group>"; };
+		523C66FB2C8B3AC800074CF5 /* HomeCashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCashView.swift; sourceTree = "<group>"; };
+		523C66FD2C8B3AD100074CF5 /* HomeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
+		523C67002C8B3ADF00074CF5 /* DetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		523C67012C8B3ADF00074CF5 /* DetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		523C67022C8B3ADF00074CF5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		523C67032C8B3ADF00074CF5 /* DetailFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFactory.swift; sourceTree = "<group>"; };
+		523C67082C8B3AE800074CF5 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +106,9 @@
 		523C66A92C8B386D00074CF5 /* DigioStore */ = {
 			isa = PBXGroup;
 			children = (
+				523C670A2C8B3B4F00074CF5 /* New Group */,
+				523C66DF2C8B3A5800074CF5 /* Scenes */,
+				523C66DE2C8B3A5400074CF5 /* Core */,
 				523C66DA2C8B388800074CF5 /* Files */,
 				523C66AA2C8B386D00074CF5 /* AppDelegate.swift */,
 			);
@@ -96,6 +133,108 @@
 			path = Files;
 			sourceTree = "<group>";
 		};
+		523C66DE2C8B3A5400074CF5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		523C66DF2C8B3A5800074CF5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				523C66E02C8B3A5D00074CF5 /* Detail */,
+				523C66E12C8B3A6100074CF5 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		523C66E02C8B3A5D00074CF5 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				523C67032C8B3ADF00074CF5 /* DetailFactory.swift */,
+				523C67012C8B3ADF00074CF5 /* DetailInteractor.swift */,
+				523C67002C8B3ADF00074CF5 /* DetailPresenter.swift */,
+				523C67022C8B3ADF00074CF5 /* DetailViewController.swift */,
+				523C66FF2C8B3AD600074CF5 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		523C66E12C8B3A6100074CF5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				523C66E32C8B3A7900074CF5 /* Entity */,
+				523C66E22C8B3A7600074CF5 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		523C66E22C8B3A7600074CF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				523C66E62C8B3A8A00074CF5 /* Cash */,
+				523C66E52C8B3A8300074CF5 /* Product */,
+				523C66E42C8B3A7E00074CF5 /* Spotlight */,
+				523C66EB2C8B3AA000074CF5 /* HomeFactory.swift */,
+				523C66EA2C8B3AA000074CF5 /* HomeInteractor.swift */,
+				523C66E92C8B3AA000074CF5 /* HomePresenter.swift */,
+				523C66EC2C8B3AA000074CF5 /* HomeRouter.swift */,
+				523C66E82C8B3AA000074CF5 /* HomeViewController.swift */,
+				523C66E72C8B3AA000074CF5 /* HomeWorker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		523C66E32C8B3A7900074CF5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				523C66FD2C8B3AD100074CF5 /* HomeResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		523C66E42C8B3A7E00074CF5 /* Spotlight */ = {
+			isa = PBXGroup;
+			children = (
+				523C66F32C8B3ABE00074CF5 /* HomeSpotlightCollectionViewCell.swift */,
+				523C66F42C8B3ABE00074CF5 /* HomeSpotlightView.swift */,
+			);
+			path = Spotlight;
+			sourceTree = "<group>";
+		};
+		523C66E52C8B3A8300074CF5 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				523C66F72C8B3AC400074CF5 /* HomeProductsCollectionViewCell.swift */,
+				523C66F82C8B3AC400074CF5 /* HomeProductView.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		523C66E62C8B3A8A00074CF5 /* Cash */ = {
+			isa = PBXGroup;
+			children = (
+				523C66FB2C8B3AC800074CF5 /* HomeCashView.swift */,
+			);
+			path = Cash;
+			sourceTree = "<group>";
+		};
+		523C66FF2C8B3AD600074CF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				523C67082C8B3AE800074CF5 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		523C670A2C8B3B4F00074CF5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +245,7 @@
 				523C66A32C8B386D00074CF5 /* Sources */,
 				523C66A42C8B386D00074CF5 /* Frameworks */,
 				523C66A52C8B386D00074CF5 /* Resources */,
+				523C66DD2C8B39FD00074CF5 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -162,6 +302,9 @@
 				Base,
 			);
 			mainGroup = 523C669E2C8B386D00074CF5;
+			packageReferences = (
+				523C66DB2C8B39F000074CF5 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
 			productRefGroup = 523C66A82C8B386D00074CF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -191,12 +334,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		523C66DD2C8B39FD00074CF5 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nexport PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint --fix && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint[](https://github.com/realm/SwiftLint)\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		523C66A32C8B386D00074CF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523C66FC2C8B3AC800074CF5 /* HomeCashView.swift in Sources */,
+				523C67092C8B3AE800074CF5 /* DetailView.swift in Sources */,
+				523C66ED2C8B3AA000074CF5 /* HomeWorker.swift in Sources */,
+				523C66FE2C8B3AD100074CF5 /* HomeResponse.swift in Sources */,
+				523C66FA2C8B3AC400074CF5 /* HomeProductView.swift in Sources */,
 				523C66AB2C8B386D00074CF5 /* AppDelegate.swift in Sources */,
+				523C67042C8B3ADF00074CF5 /* DetailPresenter.swift in Sources */,
+				523C67052C8B3ADF00074CF5 /* DetailInteractor.swift in Sources */,
+				523C67062C8B3ADF00074CF5 /* DetailViewController.swift in Sources */,
+				523C66F22C8B3AA000074CF5 /* HomeRouter.swift in Sources */,
+				523C66F92C8B3AC400074CF5 /* HomeProductsCollectionViewCell.swift in Sources */,
+				523C66EE2C8B3AA000074CF5 /* HomeViewController.swift in Sources */,
+				523C66F02C8B3AA000074CF5 /* HomeInteractor.swift in Sources */,
+				523C66F62C8B3ABE00074CF5 /* HomeSpotlightView.swift in Sources */,
+				523C66EF2C8B3AA000074CF5 /* HomePresenter.swift in Sources */,
+				523C67072C8B3ADF00074CF5 /* DetailFactory.swift in Sources */,
+				523C66F52C8B3ABE00074CF5 /* HomeSpotlightCollectionViewCell.swift in Sources */,
+				523C66F12C8B3AA000074CF5 /* HomeFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +538,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigioStore/Files/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -382,6 +565,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigioStore/Files/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -470,6 +654,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		523C66DB2C8B39F000074CF5 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = exactVersion;
+				version = 0.56.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 523C669F2C8B386D00074CF5 /* Project object */;
 }
